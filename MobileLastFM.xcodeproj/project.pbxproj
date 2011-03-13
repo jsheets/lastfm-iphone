@@ -14,6 +14,8 @@
 		0D8A76CC132D627900B95B04 /* libThree20Style.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB348B9B12F03918002EFA95 /* libThree20Style.a */; };
 		0D8A76CD132D628000B95B04 /* libThree20UICommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB348BB312F03918002EFA95 /* libThree20UICommon.a */; };
 		0D8A76CE132D628700B95B04 /* libThree20UINavigator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB348BCC12F03919002EFA95 /* libThree20UINavigator.a */; };
+		0DF9934A132D68B4003A4735 /* iconx.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DF99348132D68B4003A4735 /* iconx.png */; };
+		0DF9934B132D68B4003A4735 /* iconx@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DF99349132D68B4003A4735 /* iconx@2x.png */; };
 		1D3623260D0F684500981E51 /* MobileLastFMApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MobileLastFMApplicationDelegate.m */; };
 		1D3623EC0D0F72F000981E51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
@@ -503,6 +505,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DF99348132D68B4003A4735 /* iconx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconx.png; sourceTree = "<group>"; };
+		0DF99349132D68B4003A4735 /* iconx@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconx@2x.png"; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* MobileLastFMApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileLastFMApplicationDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* MobileLastFMApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileLastFMApplicationDelegate.m; sourceTree = "<group>"; };
@@ -1195,6 +1199,8 @@
 				FB66BAA212FB450100DB7579 /* bkgd_loading@2x.png */,
 				22224CA712FB2C960008EBB9 /* icon.png */,
 				22224CA812FB2C960008EBB9 /* icon@2x.png */,
+				0DF99348132D68B4003A4735 /* iconx.png */,
+				0DF99349132D68B4003A4735 /* iconx@2x.png */,
 				22224C8312FB26710008EBB9 /* ontour.png */,
 				22224C8412FB26710008EBB9 /* ontour@2x.png */,
 				22224AE512F9FD980008EBB9 /* nowplaying_fwd.png */,
@@ -1990,6 +1996,8 @@
 				228031C91320006A00939E7A /* nowpaused_back@2x.png in Resources */,
 				228031CA1320006A00939E7A /* nowpaused_fwd.png in Resources */,
 				228031CB1320006A00939E7A /* nowpaused_fwd@2x.png in Resources */,
+				0DF9934A132D68B4003A4735 /* iconx.png in Resources */,
+				0DF9934B132D68B4003A4735 /* iconx@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
