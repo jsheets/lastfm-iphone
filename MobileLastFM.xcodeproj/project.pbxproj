@@ -2225,7 +2225,7 @@
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos4.2;
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "armv6 i386 ppc";
+				VALID_ARCHS = "armv6 armv7 i386 ppc";
 			};
 			name = Distribution;
 		};
@@ -2245,6 +2245,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = Last.fm;
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Distribution;
@@ -2290,7 +2291,7 @@
 				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = YES;
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "armv6 i386 ppc";
+				VALID_ARCHS = "armv6 armv7 i386 ppc";
 			};
 			name = "Distribution (ad-hoc)";
 		};
@@ -2352,7 +2353,7 @@
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv6 i386 ppc";
+				VALID_ARCHS = "armv6 armv7 i386 ppc";
 			};
 			name = Debug;
 		};
@@ -2390,7 +2391,7 @@
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv6 i386 ppc";
+				VALID_ARCHS = "armv6 armv7 i386 ppc";
 			};
 			name = Release;
 		};
